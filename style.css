@@ -279,3 +279,72 @@ body{
     grid-column: span 8/auto;
 }
 
+/* services section styling */
+.choose-us{
+    max-width: 1250px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px;
+}
+.choose-us .title{
+    margin-bottom: 30px;  
+}
+.choose-us p{
+    margin-bottom: 50px;
+    
+}
+
+.cards-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    /* flex-basis: 500px; */
+}
+#one{
+    width: 550px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding:10px;
+    text-align: left;
+}
+#two{
+    width: 550px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding:10px;
+    text-align: left;
+}
+#three{
+    width: 550px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding:10px;
+    text-align: left;
+}
+.card img{
+    width: 64px;
+    height: 64px;
+}
+.sub-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
