@@ -14,4 +14,74 @@
         display: inline-flex;
           
     }
+    .banner{
+        width: 90%;
+        height: 500px;
+        margin-top: 20px;  
+        
+    }
+    .banner-title{
+        font-size: 1.3rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .banner-intro{
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 18px; 
+    }
+    .travel-form{
+        width: 287px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        padding: 5px;   
+    }
+    .travel-form input{
+        width: 252px;
+        height: 50px;
+        margin: 12px;
+        /* padding: 5px; */
+            
+    }
+    .travel-form select{
+        width: 255px;
+        height: 50px;
+        margin: 12px;
+            
+    }
+    .travel-form .primary-button{
+        width: 255px;
+        height: 50px;
+        margin: 10px;
+    }
+    .popular-tours-container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .tour-info{
+        width: 90%;
+        
+    }
+    .tour-info h2{
+        font-size: 1.25rem;
+    }
+    .description{
+        width: 100%; 
+         
+    }
+    .landscape-image{
+        width: 90%;
+        
+    }
+    .landscape-image>img{
+        width: 100%;
+        margin:0;
+        padding-top: 20px;
+    }
+    
 }
