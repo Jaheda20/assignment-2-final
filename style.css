@@ -473,5 +473,32 @@ iframe{
     max-height: 620px;
 
 }
+.Newsletter-info{
+    width: 100%;
+    max-width: 1250px;
+    margin: 30px auto;
+    height: 450px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.subscriber-detail{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    
+}
+#name-box, #email-box, .s-button{
+    width: 390px;
+    height: 52px;
+    padding: 5px;
+    margin: 10px;
+}
 
 
