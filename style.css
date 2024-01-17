@@ -237,13 +237,13 @@ body{
 
 .country-grid{
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 300px;
+    grid-auto-rows: 250px;
 
 }
 
-.box{
+.country-grid .box{
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -359,7 +359,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     border-radius: 16px;
     margin: 30px auto;
     position: relative;
@@ -377,6 +376,8 @@ body{
     backdrop-filter: blur(2.5px);
     margin: 55px;
     padding: 50px;
+    position:absolute;
+    
 
 }
 
@@ -395,7 +396,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     border-radius: 16px;
     margin: 30px auto;
     position: relative;
@@ -415,7 +415,7 @@ body{
     margin-top: 60px;
     margin-left: 700px;
     padding: 50px;
-    position: block;
+    position: absolute;
 
 }
 
@@ -436,8 +436,8 @@ body{
     width: 100%;
     /* border: 1px solid blue; */
     display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+    align-items: center;
+    margin: 0;
     
 
 }
@@ -461,25 +461,16 @@ body{
 }
 
 .bangladeshi-mountain{
-    width: 50%;
+    width: 45%;
     /* border: 2px solid green; */
 }
-iframe{
-    display: block;
-    margin: 1em auto;
-    width: 50%;
-    height: calc(.5625*50vw);
-    max-width: 800px;
-    max-height: 620px;
 
-}
 .Newsletter-info{
     width: 100%;
     max-width: 1250px;
     margin: 30px auto;
     height: 450px;
     display: flex;
-
     justify-content: space-between;
 }
 
