@@ -118,7 +118,7 @@
         grid-row: span 1;
         
     }
-
+/* service section */
     .choose-us{
         width: 90%;
         margin: 0;
@@ -157,12 +157,11 @@
         margin-top: 5px;
         margin-bottom: 5px;
     }
-        .attachment-details{
+    .attachment-details{
         flex-direction: column;
-        align-items: center;
         width: 90%;
+        gap:10px;
         
-    
     }
     .country-profile{
         width: 100%;
@@ -183,10 +182,14 @@
     }
     
     .bangladeshi-mountain{
-        width: 45%;
+        width: 100%;
         /* border: 2px solid green; */
     }
     
+    .Newsletter-info{
+        flex-direction: column;
+        width: 90%;
+    }
 
 
 }
