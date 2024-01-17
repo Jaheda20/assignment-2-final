@@ -431,4 +431,47 @@ body{
     font-weight: 800;
 }
 
+.attachment-details{
+    max-width: 1250px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    
+
+}
+.country-profile{
+    width: 45%;
+    /* border: 1px solid red; */
+
+}
+.country-profile .title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+     
+}
+.country-profile .description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 26px; */
+}
+
+.bangladeshi-mountain{
+    width: 50%;
+    /* border: 2px solid green; */
+}
+iframe{
+    display: block;
+    margin: 1em auto;
+    width: 50%;
+    height: calc(.5625*50vw);
+    max-width: 800px;
+    max-height: 620px;
+
+}
+
 
